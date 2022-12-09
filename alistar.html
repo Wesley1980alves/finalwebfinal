@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alistar</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="marinha">FORÇA NAVAL BRASILEIRA</h1>
+        <img src="imagens/marmar.jpg">
+    </header>
+
+    <nav class="vai">
+        <ul class="menu">
+            <li><a href="index.html" rel="prev">Página Inicial</a></li>
+            <li><a href="Inicio.html">História da Marinha</a></li>
+            <li><a href="alistar.html">Seja um marinheiro</a></li>
+            <li><a href="galeria.html" rel="next">Galeria de Fotos </a></li>
+            <li><a href="topico.html"> Poder Naval </a>
+                <ul>
+                    <li><a href="subtop.html">Armas da Marinha</a></li>
+                    <li><a href="subtopa.html">Marinha na Segunda Guerra </a></li>
+                </ul>
+            </li>
+            <li><a href="faleconosco.html">Fale conosco</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <form>
+
+            <h3> FAÇA SUA INSCRIÇÃO PARA O PROCESSO SELETIVO DA MARINHA DO BRASIL</h3>
+            <br>
+            <br>
+
+            <p style="color: #0D21A1;">Preencha O Formulário De Inscrição Logo Abaixo:</p>
+            <br>
+            <br>
+
+
+            <fieldset>
+                <fieldset>
+                    <legend> Inscrição Marinha do Brasil</legend>
+                    <fieldset>
+                        <legend> Login</legend>
+                        <label for="usuario">Usuário:</label><input type="email" nome="nNome" id="idUsuario"
+                            placeholder="Crie Usuário" size="30">
+                        <label for="Senha">Senha:</label><input type="password" nome="Secreto" id="idSenha"
+                            placeholder="Crie Senha" maxlength="6" minlength="8" size="8">
+                    </fieldset>
+                    <fieldset>
+
+                        <legend>Dados Do Candidato</legend>
+                        <p><label for="idNome">Nome Candidato(A):</label><input type="text" name="nNome" id="idNome"
+                                placeholder="Nome Completo" size="30"></p>
+                        <p><label for="idDataNascimento">Data De Nascimento:</label><input type="date"
+                                name="idDataNascimento" id="idDataNascimento" placeholder="Data De Nascimento"></p>
+                        <p><label for="idEmail">E-Mail:</label><input type="email" name="nEmail" id="idEmail"
+                                placeholder="E-Mail"></p>
+                        <label for="idNascionalidade">Nascionalidade:</label><input type="text" nome="nNascionalidade"
+                            id="idNascionalidade" placeholder="Nascionalidade" size=15>
+                        <p><label for="idNaturalidade">Naturalidade:</label><input type="text" name="nNaturalidade"
+                                id="idNaturalidade" placeholder="Naturalidade" size="15"></p>
+                        <label for="idNomeDaMae"> Nome Da Mãe:</label><input type="text" name="nNomeMae"
+                            id="idNomeDaMae" placeholder="Nome Da mãe" size="30">
+                        <label for="NomePai">Nome Do Pai:</label><input type="text" name="nPai" id="idNomePai"
+                            placeholder="Nome do Pai" size="30">
+                        <fieldset>
+                            <legend>Cor</legend>
+                            <p>
+                                <input type="radio" name="Cor" id="idBranca">
+                                <label for="idBranca">Branca:</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="Cor" id="idPardo">
+                                <label for="idPardo">Pardo:</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="Cor" id="idNegro">
+                                <label for="idNegro">Negro:</label>
+                            </p>
+                            <input type="radio" name="Cor" id="idAmarela">
+                            <label for="idAmarela">Amarela:</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="Cor" id="idIndigena">
+                                <label for="idIndigena">Indigina:</label>
+                            </p>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Escolaridade</legend>
+                            <p>
+                                <input type="radio" name="Escolaridade" id="idGrauEscolar">
+                                <label for="idGrauEscolar">Fundamental completo</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="Escolaridade" id="idEnsinoMedioIncompleto">
+                                <label for="idEnsinoMedioIncompleto">Ensino Médio Incompleto</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="Escolaridade" id="idMedioCompleto">
+                                <label for="idMedioCompleto">Ensino Médio Completo</label>
+                            </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Sexo</legend>
+                            <p>
+                                <input type="radio" name="sexo" id="idMasculino">
+                                <label for="idMasculino">Masculino</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="sexo" id="idFeminino">
+                                <label for="idFeminino">Feminino</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="sexo" id="idOutros">
+                                <label for="idOutros">Outro</label>
+                            </p>
+                        </fieldset>
+
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend> Dados Residênciais </legend>
+                        <label for="idEndereco">Endereço :</label><input type="text" name="nEndereco" id="idEndereco"
+                            placeholder="Endereço residêncial" size="20">
+                        <label for="idEdificio">Edificio</label><input type="text" name="nEdificio" id="idEdificio"
+                            placeholder="Edificio">
+                        <label for="idBairro">Bairro:</label><input type="text" name="nBairro" id="idBairro"
+                            placeholder="Bairro">
+                        <label for="idNumero">Número:</label><input type="text" name="nNumero" id="idNumero"
+                            placeholder="Número" size="3">
+                        <p></p><label for="idFone"> Telefone De Contato:</label><input type="tel" name="nFone"
+                            id="idFone" placeholder="Telefone de Contato" size="20"></p>
+                        </filedset>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Local Para Realizar Exame</legend>
+                        <p>
+                            <input type="radio" name="Local Para Realizar Exame" id="Aracajú">
+
+                            <label for="Aracajú">Aracajú(SE)</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="Local Para Realizar Exame" id="Belém">
+                            <label for="Belém">Belém-PA</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="Local Para Realizar Exame" id="Brasília">
+                            <label for="Brasília">Brasília(MG)</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="Local Para Realizar Exame" id="Cuiabá">
+                            <label for="cuiabá">Cuiabá</label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <p>Possui Necessidades Para realização Do Exame</p>
+                        <p>
+                            <input type="radio" name="opcao" id="precisa">
+                            <label for="precisa">sim</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="opcao" id="naoprecisa">
+                            <label for="naoprecisa">Não</label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend> Dê Sua Opnião</legend>
+
+                        <label for="Opniao"> Selecione um Navio de Sua Preferência:</label>
+
+                        <select id="idOpniao">
+                            <option value="fragata classe-niteroi">Fragata Classe classe-niterói</option>
+                            <option value="fragata tamandare">Fragata Classe-Tamandaré</option>
+                            <option value="Fragata Classe-inhauna ">Fragata classe-Inhaúna</option>
+
+                        </select>
+
+
+                        <label for="opcao">Dê Uma Nota Para a Fragata Escolhida</label><input type="range" name="nome"
+                            id="opcaoescolha" min="1" max="10">
+                        <br>
+                        <br>
+
+                        <fieldset>
+                            <legend>De sua opnião do estaleiro que produz Fragatas para o Brasil </legend>
+                            <select id="optar ">
+                                <option value="estaleiro">O Thyssenkrupp Estaleiro Brasil Sul</option>
+
+
+
+                            </select>
+                            <label for="denota">Dê sua nota </label><input type="number" name="Nnome" id="escolha"
+                                min="1" max="10">
+                            <br>
+                            <br>
+                            <br>
+                        </fieldset>
+
+
+
+
+                    </fieldset>
+                </fieldset>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+</body>
